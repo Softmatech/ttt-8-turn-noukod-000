@@ -19,7 +19,7 @@ def move(board, index, charac = "X")
  end
 
 def input_to_index(user_input)
-  index = index.to_i - 1
+  index = user_input.to_i - 1
   return index
 end
 
