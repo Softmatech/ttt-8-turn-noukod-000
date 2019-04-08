@@ -4,13 +4,12 @@ def turn(board)
   input_index = gets.strip
   index = input_to_index(input_index)
 
-  if index.between?(0,8)
+   index.between?(0,8)
   move(board,index)
   display_board(board)
-else
+  
   until !index.between?(0,8)
   puts "Please enter a valid input"
-end
 end
 end
 
