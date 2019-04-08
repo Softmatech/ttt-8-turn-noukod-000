@@ -8,10 +8,10 @@ def turn(board)
   move(board,index)
   display_board(board)
 else
-  until !index.between?(0,8)
+  # until !index.between?(0,8)
   puts "Please enter a valid input"
   turn(board)
-end
+# end
 end
 end
 
