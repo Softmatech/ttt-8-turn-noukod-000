@@ -14,10 +14,10 @@ end
 end
 end
 
+def move(board, index, charac = "X")
+   board[index] = charac
+ end
 
-def move(board,input_to_index, token = "X")
-  
-end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
