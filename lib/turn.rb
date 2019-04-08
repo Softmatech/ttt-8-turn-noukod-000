@@ -3,10 +3,11 @@ def turn(board)
   puts "Please enter 1-9:"
   
   input_index = gets.strip
-  index = input_index.to_i - 1
+  index = input_index.to_i
+  index_ = index - 1
   
   if index.between?(0,8)
-  move(board,index)
+  move(board,index_)
 else
   until !index.between?(0,8)
   puts "Please enter a valid input"
