@@ -10,7 +10,7 @@ def turn(board)
 else
   until !index.between?(0,8)
   puts "Please enter a valid input"
-  
+end
 end
 end
 
