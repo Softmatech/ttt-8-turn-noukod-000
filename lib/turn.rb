@@ -19,6 +19,9 @@ def move(board, index, charac = "X")
    board[index] = charac
  end
 
+def input_to_index(index)
+  
+end
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
